@@ -34,18 +34,18 @@
 **Option 1: Clone with Git**
 
 ```bash
-git clone https://github.com/zuvuan/zuvuan-webstarter-cli.git
+git clone https://github.com/MdAquib444/zuvuan-webstarter-cli.git
 cd zuvuan-webstarter-cli
 ```
 
 **Option 2: Download ZIP**
 
-[Download the latest ZIP](https://github.com/zuvuan/zuvuan-webstarter-cli/archive/refs/heads/main.zip), extract it, and open the folder in your terminal.
+[Download the latest ZIP](https://github.com/MdAquib444/zuvuan-webstarter-cli/archive/refs/heads/main.zip), extract it, and open the folder in your terminal.
 
 **Option 3: Download only the script**
 
 ```bash
-curl -O https://raw.githubusercontent.com/zuvuan/zuvuan-webstarter-cli/main/create_project.sh
+curl -O https://raw.githubusercontent.com/MdAquib444/zuvuan-webstarter-cli/main/zuvuan.sh
 ```
 
 ## Usage
@@ -53,19 +53,19 @@ curl -O https://raw.githubusercontent.com/zuvuan/zuvuan-webstarter-cli/main/crea
 1. Make the script executable (first time only):
 
    ```bash
-   chmod +x create_project.sh
+   chmod +x zuvuan.sh
    ```
 
 2. Run it from the folder where you want your new project to be created:
 
    ```bash
-   ./create_project.sh
+   ./zuvuan.sh
    ```
 
    Or without changing permissions:
 
    ```bash
-   bash create_project.sh
+   bash zuvuan.sh
    ```
 
 3. Answer the prompts:
@@ -90,7 +90,7 @@ curl -O https://raw.githubusercontent.com/zuvuan/zuvuan-webstarter-cli/main/crea
 
    Visit <http://localhost:8000>.
 
-> Tip: to run it from anywhere, copy the script to a folder in your `PATH`, for example `cp create_project.sh ~/.local/bin/webstarter`.
+> Tip: to run it from anywhere, copy the script to a folder in your `PATH`, for example `cp zuvuan.sh ~/.local/bin/zuvuan`.
 
 ## Generated Structure
 
@@ -126,11 +126,11 @@ Empty folders contain a `.gitkeep` file so Git keeps them.
 
 | Problem | Solution |
 | --- | --- |
-| `Permission denied` | Run `chmod +x create_project.sh` or use `bash create_project.sh` |
+| `Permission denied` | Run `chmod +x zuvuan.sh` or use `bash zuvuan.sh` |
 | `Standard input is not a terminal` | Run the script directly in a terminal, not through a pipe |
 | `Target '...' already exists` | Choose a different project name or remove the existing folder |
 | Windows: script not running | Use Git Bash or WSL, not Command Prompt or PowerShell |
-| `bad interpreter` / `\r` errors | Convert line endings: `sed -i 's/\r$//' create_project.sh` |
+| `bad interpreter` / `\r` errors | Convert line endings: `sed -i 's/\r$//' zuvuan.sh` |
 
 ## Contributing
 
@@ -142,7 +142,7 @@ Contributions are welcome.
 4. Push the branch: `git push origin feature/your-feature`
 5. Open a Pull Request
 
-Found a bug or have an idea? [Open an issue](https://github.com/zuvuan/zuvuan-webstarter-cli/issues).
+Found a bug or have an idea? [Open an issue](https://github.com/MdAquib444/zuvuan-webstarter-cli/issues).
 
 ## License
 
@@ -150,9 +150,9 @@ Released under the MIT License. See [LICENSE.txt](./LICENSE.txt) for details.
 
 ## Author
 
-**Your Name**
+**Md Aquib**
 
-- GitHub: [@zuvuan](https://github.com/zuvuan)
+- GitHub: [@MdAquib444](https://github.com/MdAquib444)
 - Email: your.email@example.com
 
 If this project helped you, consider giving it a star on GitHub.
