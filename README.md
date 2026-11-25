@@ -153,6 +153,5 @@ Released under the MIT License. See [LICENSE.txt](./LICENSE.txt) for details.
 **Md Aquib**
 
 - GitHub: [@MdAquib444](https://github.com/MdAquib444)
-- Email: your.email@example.com
 
 If this project helped you, consider giving it a star on GitHub.
